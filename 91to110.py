@@ -1,3 +1,4 @@
+print(" 91.	Bubble Sort\n 92.	Insertion Sort\n 93.	Selection Sort\n 94.	Merge Sort\n 95.	Quick Sort\n 96.	Binary Search\n 97.	Linear Search\n 98.	Knuth Shuffle (Fisher-Yates Shuffle)\n 99.	Matrix Addition\n 100.	Matrix Multiplication\n 101.	Transposition of a Matrix\n 102.	Check if a Matrix is Symmetric\n 103.	Longest Common Substring\n 104.	Longest Common Subsequence (LCS)\n 105.	Coin Change (Greedy)\n 106.	Coin Change (DP)\n 107.	Knapsack Problem (0/1 DP)\n 108.	Permutations of a List\n 109.	Backtracking: N-Queens\n 110.	Shortest Path in a Grid\n")
 question = int(input("Enter the question number: "))
 print("\n")
 
