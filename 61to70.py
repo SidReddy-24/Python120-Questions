@@ -117,29 +117,23 @@ elif question == 68:
 
 elif question == 69:
     # Compute the LCM of all numbers in a given range [1..n]
-    def lcm_up_to_n(n):
-        def is_prime(num):
-            if num < 2:
-                return False
-            for i in range(2, int(num**0.5) + 1): 
-                if num % i == 0:
-                    return False
-            return True
+    from math import gcd
 
-        def highest_power(p, n):
-            power = p
-            while power * p <= n:
-                power *= p
-            return power
+    def lcm(a, b):
+    # Compute the LCM of two numbers.
+        return a * b // gcd(a, b)
 
-        lcm = 1
-        for p in range(2, n + 1):
-            if is_prime(p):
-                lcm *= highest_power(p, n)
-        return lcm
+    def lcm_of_range(n):
+    # Compute the LCM of all numbers in the range [1..n].
+        result = 1
+        for i in range(1, n + 1):
+            result = lcm(result, i)
+        return result
 
-    n = int(input("Enter the number: "))
-    print("LCM of numbers from 1 to", n, "is:", lcm_up_to_n(n))
+# Input and output
+    n = int(input("Enter the number n: "))
+    print(f"LCM of numbers from 1 to {n} is: {lcm_of_range(n)}")
+
 
 elif question == 70:
     # Implement the Sieve of Eratosthenes to find all prime numbers up to n.

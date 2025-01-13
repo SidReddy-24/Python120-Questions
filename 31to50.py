@@ -222,7 +222,6 @@ elif question == 42:
         print("The original list is: ", mytup)
         t = tuple(mytup)
         print("After the list to tuple conversion: ", t)
-        # Modify the list
         mytup[0] = "Modified"
         t = tuple(mytup)
         print("After modifying and converting back to tuple: ", t)

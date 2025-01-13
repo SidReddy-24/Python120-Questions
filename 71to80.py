@@ -1,4 +1,4 @@
-print(" 71. Write to File\n72. Read from File\n73. Copy File\n74. Count Lines in a File\n75. Count Words in a File\n76. Find Longest Line in a File\n77. Search for a Word in a File\n78. Append to a File\n79. Remove Blank Lines\n80. File Statistics\n")
+print("71. Write to File\n72. Read from File\n73. Copy File\n74. Count Lines in a File\n75. Count Words in a File\n76. Find Longest Line in a File\n77. Search for a Word in a File\n78. Append to a File\n79. Remove Blank Lines\n80. File Statistics\n")
 question = int(input("Enter the question number: "))
 print("\n")
 
@@ -36,7 +36,7 @@ elif question == 74:
 
 elif question == 75:
     # Read a text file and count how many words it contains.
-    with open("output.txt", "r") as file:
+    with open("output.txt", "r+") as file:
         content = file.read()
         words = content.split()
         print(f"The file contains {len(words)} word(s).")

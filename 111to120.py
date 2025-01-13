@@ -373,10 +373,10 @@ elif question==116:
              if choice in current_room['choices']:
                  next_room_key = current_room['choices'][choice]['next_room']
                  current_room = rooms[next_room_key]
-               else:
+             else:
                  print("Invalid choice, try again!")
          else:
-             break  # If no choices are left, the game ends
+            break  # If no choices are left, the game ends
 
      print("\nGame Over. Thanks for playing!")
 
