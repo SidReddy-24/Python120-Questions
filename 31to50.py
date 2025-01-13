@@ -349,7 +349,7 @@ elif question == 49:
         set2 = set(mytup2)
 
         print("Union: ", set1.union(set2))
-        print("Intersection: ", set1.intersection(set1))
+        print("Intersection: ", set1.intersection(set2))
         print("Difference: ", set1.difference(set2))
 
     set_operations()
