@@ -49,6 +49,7 @@ elif question == 22:
 elif question == 23:
     # Write a function that accepts a string and returns the number of characters in it.
     def num_char(s):
+        s=s.replace(" ", "")
         return len(s)
 
     string = input("Enter a string: ")

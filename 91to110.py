@@ -194,7 +194,6 @@ elif question == 99:
     def main():
         print("Matrix Addition Program")
     
-    # Ask for fixed dimensions
         rows = int(input("Enter the number of rows: "))
         cols = int(input("Enter the number of columns: "))
     
@@ -204,7 +203,6 @@ elif question == 99:
         print("\nInput Matrix 2:")
         matrix2 = get_matrix("Matrix 2", rows, cols)
     
-    # Compute the sum
         print("\nSum of Matrices:")
         result = add_matrices(matrix1, matrix2)
         for row in result:

@@ -1,4 +1,4 @@
-print("61. Armstrong Number\n 62. Strong Number\n 63. Perfect Number\n 64. Sum of Digits\n 65. Binary to Decimal Conversion\n 66. Decimal to Binary Conversion\n 67. Prime Factors of a Number\n 68. Number to Words\n 69. LCM of a Range\n 70. Sieve of Eratosthenes")
+print(" 61. Armstrong Number\n 62. Strong Number\n 63. Perfect Number\n 64. Sum of Digits\n 65. Binary to Decimal Conversion\n 66. Decimal to Binary Conversion\n 67. Prime Factors of a Number\n 68. Number to Words\n 69. LCM of a Range\n 70. Sieve of Eratosthenes")
 question = int(input("Enter the question number: "))
 print("\n")
 
